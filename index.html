@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>empInfo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form onsubmit="initial()" action="redirect.html">
+        <div class="main-container">
+            <div class="name">
+                <label>Name:</label>
+                <input type="text" placeholder="Enter Your Name" id="name_value">
+            </div>
+            <div class="company">
+                <label>Company:</label>
+                <input type="text" placeholder="Enter Your Company" id="company_value">
+            </div>
+            <div class="technology">
+                <label>Technology:</label>
+                <input type="text" placeholder="Enter The Technology you work on" id="tech_value">
+            </div>
+            <div class="phone">
+                <label>Phone:</label>
+                <input type="text" placeholder="Enter Your Phone Number" id="phone_value">
+            </div>
+            <div class="location">
+                <label>location:</label>
+                <input type="text" placeholder="Enter your location" id="location_value">
+            </div>
+            <div class="photo">
+                <label>Photo:</label>
+                <input type="file" placeholder="Upload your Photo" id="image" onchange="encodeImageFileAsURL();" />
+            </div>
+            <div>
+                <input type="submit" class="submit" id="redirect" onclick="re()">
+            </div>
+    </form>
+
+    </div>
+</body>
+
+</html>

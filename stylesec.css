@@ -1,0 +1,93 @@
+body {
+    background-image: url(https://depechecode.io/wp-content/uploads/2017/12/web_design_desk2.jpg);
+}
+
+.second-main-container {
+    padding: 45px;
+}
+
+.header-bar {
+    width: 69%;
+    float: right;
+}
+
+#image {
+    width: 27%;
+    height: 184px;
+    float: left;
+    background-color: rgba(0, 0, 255, 0.226);
+    margin-left: -335px;
+}
+
+.name-style {
+    padding: 15px;
+}
+
+.location-style {
+    padding: 15px;
+}
+
+.phone-style {
+    padding: 15px;
+}
+
+.basic-info {
+    background-color: rgba(240, 255, 255, 0.315);
+    height: 180px;
+}
+
+.detailed-info {
+    width: 99%;
+    background-color: rgba(151, 120, 120, 0.267);
+    height: 260px;
+    margin-top: 288px;
+    margin-left: 25px;
+}
+
+.company-style {
+    padding: 43px;
+}
+
+.technology-style {
+    padding: 43px;
+}
+
+.name-style>label {
+    color: white;
+}
+
+#name {
+    background-color: rgb(171, 248, 98);
+}
+
+#location {
+    background-color: rgb(171, 248, 98);
+}
+
+#Phone {
+    background-color: rgb(171, 248, 98);
+}
+
+#company {
+    background-color: rgb(171, 248, 98);
+}
+
+#technology {
+    background-color: rgb(171, 248, 98);
+}
+
+.location-style>label {
+    color: white;
+}
+
+.phone-style>label {
+    color: white;
+}
+
+.company-style>label {
+    color: white;
+}
+
+.technology-style>label {
+    color: white;
+}

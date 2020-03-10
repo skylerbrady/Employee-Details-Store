@@ -1,0 +1,101 @@
+body {
+    background-image: url(https://depechecode.io/wp-content/uploads/2017/12/web_design_desk2.jpg);
+}
+
+.main-container {
+    padding: 30px;
+}
+
+.name {
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+
+.name>input {
+    margin-left: 52px;
+    width: 338px;
+    height: 38px;
+    background-color: rgba(0, 83, 179, 0.226);
+    color: white;
+}
+
+.company {
+    padding-left: 30px;
+    padding-top: 35px;
+    color: white;
+}
+
+.company>input {
+    margin-left: 29px;
+    width: 338px;
+    height: 38px;
+    background-color: rgba(0, 83, 179, 0.226);
+    color: white;
+}
+
+.technology {
+    padding-left: 30px;
+    padding-top: 35px;
+    color: white;
+}
+
+.technology>input {
+    margin-left: 17px;
+    width: 338px;
+    height: 38px;
+    background-color: rgba(0, 83, 179, 0.226);
+    color: white;
+}
+
+.phone {
+    padding-left: 30px;
+    padding-top: 35px;
+    color: white;
+}
+
+.phone>input {
+    margin-left: 53px;
+    width: 338px;
+    height: 38px;
+    background-color: rgba(0, 83, 179, 0.226);
+    color: white;
+}
+
+.location {
+    padding-left: 30px;
+    padding-top: 35px;
+    color: white;
+}
+
+.location>input {
+    margin-left: 41px;
+    width: 338px;
+    height: 38px;
+    background-color: rgba(0, 83, 179, 0.226);
+    color: white;
+}
+
+.photo {
+    padding-left: 30px;
+    padding-top: 35px;
+    color: white;
+}
+
+.photo>input {
+    margin-left: 55px;
+    width: 338px;
+    height: 38px;
+    background-color: rgba(0, 83, 179, 0.226);
+    color: white;
+}
+
+.submit {
+    margin-left: 469px;
+    margin-top: 42px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: #005F81;
+    color: white;
+}
